@@ -89,3 +89,8 @@ var topn = index.TopN();
 // Get the desired query result with the given Index name
 var query = await client.query("repository", union);
 ```
+## Documentation
+
+### Data Model and Queries
+
+See: [Data Model and Queries](docs/data-model-queries.md)
