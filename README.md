@@ -8,7 +8,7 @@ C# client for Pilosa high performance distributed index.
 
 ## Requirements
 
-* NET Core 3.1 and higher
+* .NET Core 3.1 and higher
 
 ## Usage
 
