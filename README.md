@@ -26,7 +26,7 @@ var schema = await client.listAllIndexSchemas();
 // Create an Index object with key status
 var myindex = await client.createIndex("myindex", false);
 
-// Create a Field object of created Index with type, min and max values
+// Create a Field object of created Index with the main Field options
 var myfield = await client.createField("myindex", "myfield", "type", -1000, 5000);
 
 //Assign the Field name will be used in the queries
