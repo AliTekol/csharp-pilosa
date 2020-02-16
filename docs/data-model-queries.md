@@ -20,7 +20,7 @@ var createdField = await client.createField("myindex", "myfield", "type", -1000,
 ```
 ## Queries
 
-For creating queries for them. First you need to create the following method assigned with the field name:
+For creating queries for them, first you need to create the following method assigned with the field name:
 ```C#
 var index = new ali.pilosa.Index("stargazer");
 ```
