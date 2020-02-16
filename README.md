@@ -37,57 +37,6 @@ var set = index.Set(10, 2);
 
 // Send a Row query
 var row = index.Row(1);
-
-// Send a Clear query
-var clear = index.Clear(10, 1);
-
-// Send a Count query
-var count = index.Count(index.Row(1));
-
-// Send an Intersect query
-var intersect = index.Intersect(index.Row(1), index.Row(2), index.Row(3));
-
-//Send a Union query
-var union = index.Union(index.Row(1), index.Row(2), index.Row(3));
-
-// Send a Difference query
-var difference = index.Difference(index.Row(1), index.Row(2));
-
-// Send a Min query
-var min = index.Min();
-
-// Send a Max query
-var max = index.Max();
-
-// Send a Store query
-var store = index.Store(index.Row(1), 2);
-
-// Send a Shift query
-var shift = index.Shift(index.Row(1), 2);
-
-// Send a ClearRow query
-var clearrow = index.ClearRow(1);
-
-// Send a Sum query
-var sum = index.Sum();
-
-// Send a Not query
-var not = index.Not(index.Row(1));
-
-//Send an Xor Query
-var xor = index.Xor(index.Row(1), index.Row(2));
-
-//Send Rows Query
-var rows = index.Rows();
-
-//Send GroupBy Query
-var groupby = index.GroupBy(index.Rows("language"));
-
-//Send TopN Query
-var topn = index.TopN();
-
-// Get the desired query result with the given Index name
-var query = await client.query("repository", union);
 ```
 ## Documentation
 
